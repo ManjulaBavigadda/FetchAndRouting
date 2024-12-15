@@ -1,4 +1,5 @@
 import './index.css'
+
 const About = () => (
   <div className="about-container">
     <img
@@ -12,4 +13,5 @@ const About = () => (
     </p>
   </div>
 )
+
 export default About

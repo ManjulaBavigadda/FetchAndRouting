@@ -1,6 +1,7 @@
 // Write your JS code here
 import {Link} from 'react-router-dom'
 import './index.css'
+
 const BlogItem = props => {
   const {blogData} = props
   const {id, imageUrl, topic, title, avatarUrl, author} = blogData
@@ -22,4 +23,5 @@ const BlogItem = props => {
     </li>
   )
 }
+
 export default BlogItem

@@ -6,6 +6,7 @@ import BlogItemDetails from './components/BlogItemDetails'
 import Contact from './components/Contact'
 import NotFound from './components/NotFound'
 import './App.css'
+
 const App = () => (
   <BrowserRouter>
     <div className="app-container">

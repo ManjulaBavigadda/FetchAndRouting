@@ -1,4 +1,5 @@
 import './index.css'
+
 const UserInfo = () => (
   <div className="user-info-container">
     <img
@@ -10,4 +11,5 @@ const UserInfo = () => (
     <p className="user-designation">Software developer at UK</p>
   </div>
 )
+
 export default UserInfo
